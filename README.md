@@ -26,7 +26,7 @@ For this agent to be an Actor-critic, we have two learning neural networks:
 -	In a standard Actor-critic method, the Actor network will learn the probabilities of good and bad actions. Will take in states and outputs a distribution over the possible actions. But in the case of DDPG, the algorithm used in this project, the Actor will give us the best possible action based on the policy learnt, not a probability distribution.
 -	The Critic network will learn how to estimate good actions and bad actions to help on the actor decisions. Technically it will learn to evaluate the state value function (Vpi), will take in states and outputs an expectation of the state value function of the policy, this state value function will update the actor network.
 
-### Getting Started
+### Set up your environment
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
@@ -42,6 +42,15 @@ For this agent to be an Actor-critic, we have two learning neural networks:
 
 2. Place the file in the DRLND GitHub repository, in the `DDRLN-Project2-ReacherArm/` folder,  unzip (or decompress) the file and change the path in the `Continuous_Control.ipynb` file in the following line: `env = UnityEnvironment(file_name='.\Reacher_Windows_x86_64\Reacher.exe')`
 
-### Instructions
+3. Install the requirement defined in the requirements.txt via `pip` 
+
+```
+pip install -r requirements.txt
+
+```
+or follow the course instructions at: (https://github.com/udacity/deep-reinforcement-learning#dependencies).
+.
+
+### Code instructions
 
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent or just seeing the already trained agent!  

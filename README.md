@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/JavRodriPM/DDRLN-Project2-ReacherArm/blob/main/videos/Continuous_Control_Trained_Agent_FS.gif "Trained Agent"
+[image1]: https://raw.githubusercontent.com/JavRodriPM/DDRLN-Project2-ReacherArm/master/Videos/Continuous_Control_Trained_Agent_FS.gif "Trained Agent"
 
 
 # Project 2: Continuous Control
